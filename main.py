@@ -13,7 +13,6 @@ import pydotplus
 import io
 import cv2
 from matplotlib import style
-s='dfsdf'
 
 
 
@@ -277,7 +276,7 @@ def plot_accuracies_table():
 if __name__=="__main__":
 
     initialize_suite_variables()
-    df=load_data('/Users/jaydeep/MachineLearning/MajorProjectEDG/arrhythmia.data.csv')
+    df=load_data('arrhythmia.data.csv')
     define_class_names()
     describe_the_data(df)
     transform_the_data(df)
